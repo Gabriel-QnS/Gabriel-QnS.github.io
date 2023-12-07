@@ -1,0 +1,22 @@
+:root{
+    --fav-icecream: pink;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Styles for dark mode */
+    body {
+      background-color: #222;
+      color: #fff;
+    }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    /* Styles for light mode */
+    body {
+      background-color: #fff;
+      color: #222;
+    }
+  }
+  
+
+  
