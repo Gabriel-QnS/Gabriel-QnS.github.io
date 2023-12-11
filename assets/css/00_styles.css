@@ -1,3 +1,5 @@
+ @import url("./01_intro-section.css");
+
 :root{
     --fav-icecream: pink;
 }
@@ -17,6 +19,19 @@
       color: #222;
     }
   }
+
+  main{
+    position: relative;
+  }
   
+  nav#navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    min-height: 5vh;
+    height: 50px;
+  }
 
   
