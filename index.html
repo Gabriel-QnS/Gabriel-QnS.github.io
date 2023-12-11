@@ -7,27 +7,27 @@
     <link rel="stylesheet" href="assets/css/00_styles.css">
     <title>Gabriel Rengifo</title>
 </head>
-<body>
+<body class="bg-dark">
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <main>
 
         <!-- nav bar area -->
 
-            <nav class="navbar navbar-expand-sm bg-body-secondary" id="navigation">
+            <nav class="navbar navbar-expand-sm" id="navigation">
                 <div class="container-fluid">
                     <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
                         <ul class="navbar-nav d-flex flex-row gap-3">
                           <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link link-light" aria-current="page" href="#">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link link-light" href="#">About</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link link-light" href="#">Projects</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Socials</a>
+                            <a class="nav-link link-light" href="#">Socials</a>
                           </li>
                         </ul>
                     </div>
@@ -61,12 +61,17 @@
 
         <section id="intro" class="">
             <div class="card">
-                <div class="card-img"></div>
-                <div class="card-body">
-                    <h1 class="card-title">Hello!</h1>
-                    <h2 class="card-subtitle">I'm Gabriel</h2>
-                    <p>I'm a software engineer focused on responsive web development and sites with databases</p>
-                </div>
+              <div class="card-header rounded-1">
+                <img src="assets/media/pic-color.jpg" alt="A photo of me, Gabriel!" class="card-img border border-info">
+              </div>
+              <div class="card-body text-end">
+                  <h1 class="card-title">Hello!</h1>
+                  <h2 class="card-subtitle">I'm Gabriel</h2>
+                  <p>I'm a software engineer focused on responsive web development and sites with databases</p>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-primary border border-dark"><span class="fw-bold">My Projects</span></button>
+              </div>
             </div>
         </section>
     </main>

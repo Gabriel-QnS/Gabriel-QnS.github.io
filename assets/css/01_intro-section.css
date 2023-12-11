@@ -1,4 +1,32 @@
 section#intro{
     height: 90vh;
-    margin-top: 5vh;
+    margin-top: 50px;
+  }
+
+  img{
+    max-width: 250px;
+    margin: auto;
+  }
+
+  div.card{
+    height: 100%;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div.card .card-header {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    width: 80vw;
+  }
+
+  div.card-body{
+    width: 80vw;
+  }
+
+  .card-footer button{
+    width: 50vw;
   }
