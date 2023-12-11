@@ -3,12 +3,12 @@ section#intro{
     margin-top: 50px;
   }
 
-  img{
+  #mypic{
     max-width: 250px;
     margin: auto;
   }
 
-  div.card{
+  #intro div.card{
     height: 100%;
     max-height: 90vh;
     display: flex;
@@ -16,17 +16,26 @@ section#intro{
     align-items: center;
   }
 
-  div.card .card-header {
+  #intro div.card .card-header {
     height: 50%;
     display: flex;
     align-items: center;
     width: 80vw;
   }
 
-  div.card-body{
+  div.card-body.intro{
     width: 80vw;
   }
 
-  .card-footer button{
+  #intro button{
     width: 50vw;
+    max-width: 300px;
+    transition: ease-in 0.25s;
+    border-width: 3px !important;
+  }
+
+  #intro button:hover{
+    background-color: aqua;
+    color: black;
+    border-color: #333 !important;
   }
