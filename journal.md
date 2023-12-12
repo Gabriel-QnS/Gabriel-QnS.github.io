@@ -1,0 +1,1 @@
+Check other license types, maybe portfolio should not be public
