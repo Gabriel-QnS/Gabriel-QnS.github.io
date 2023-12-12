@@ -1,5 +1,6 @@
 section#intro{
-    height: 90vh;
+    min-height: 90vh;
+    height: auto;
     margin-top: 50px;
   }
 
@@ -9,8 +10,8 @@ section#intro{
   }
 
   #intro div.card{
-    height: 100%;
-    max-height: 90vh;
+    height: auto;
+    max-height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;

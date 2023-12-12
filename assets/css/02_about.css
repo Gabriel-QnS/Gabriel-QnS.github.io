@@ -1,3 +1,15 @@
 section#about{
     min-height: 90vh;
+    height: auto;
+}
+img#firstgif{
+    max-width: 100%;
+}
+
+figure{
+    max-width: 100%;
+}
+
+#github-link{
+    font-size: 2rem;
 }
