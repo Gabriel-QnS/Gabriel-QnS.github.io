@@ -1,0 +1,7 @@
+#projects div.card-group div.card img{
+    height: 250px;
+}
+
+#projects div.card-group div.card{
+    max-width: 400px;
+}

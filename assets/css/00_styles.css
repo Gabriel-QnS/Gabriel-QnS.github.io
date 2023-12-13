@@ -1,5 +1,6 @@
  @import url("./01_intro-section.css");
  @import url("./02_about.css");
+ @import url("./03_projects.css");
 
 :root{
     --fav-icecream: pink;
