@@ -1,7 +1,17 @@
-#projects div.card-group div.card img{
+#projects div.card-group div.card{
+    /* max-width: 400px; */
+    height: 100%;
+}
+
+#project-gallery div div div img{
     height: 250px;
 }
 
-#projects div.card-group div.card{
-    max-width: 400px;
+@media screen and (min-width: 570px){
+
+    #projects div.card-group div.card{
+        /* max-width: 400px; */
+        height: 100%;
+        max-height: 250px;
+    }
 }
