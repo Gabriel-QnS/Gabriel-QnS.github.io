@@ -1,0 +1,13 @@
+/* footer ul {
+    list-style-type: none;
+} */
+
+div#attributions ul{
+    list-style-type: disc;
+}
+
+div#attributions ul a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+}
