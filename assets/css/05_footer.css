@@ -7,7 +7,12 @@ div#attributions ul{
 }
 
 div#attributions ul a{
-    color: whitesmoke;
-    text-decoration: none;
+    color: rgb(192, 181, 33);
+    text-decoration: dotted;
     font-weight: 500;
+}
+
+footer{
+ width: 100%;
+ margin: 0;
 }
