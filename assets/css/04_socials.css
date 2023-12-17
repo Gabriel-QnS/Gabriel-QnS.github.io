@@ -1,0 +1,46 @@
+div.media-buttons div{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.social{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    transition: 0.25s;
+    height: 100px;
+    width: 100px;
+}
+
+.social:hover{
+    transform: scale(1.1);
+}
+
+.social a{
+    height: 100%;
+    width: 100%;
+}
+
+#gmail{
+    background-image: url("../media/gmail-logo.png");
+}
+
+#gmail:hover{
+    background-image: url("../media/gmail.png");
+}
+
+#linkedin{
+    background-image: url('../media/linkedin.png');
+}
+
+#linkedin:hover{
+    background-image: url('../media/linkedin-colored.png');
+}
+
+#twitter{
+    background-image: url('../media/twitter.png');
+}
+#twitter:hover{
+    background-image: url('../media/twitter-colored.png');
+}
+

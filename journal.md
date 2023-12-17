@@ -7,3 +7,5 @@ Considering to create a new Github, old one is too clutured with old projects #!
 created a new github
 finished gallery for mobile, looks like shit though
 next add social media area
+02
+how do i link in a website the tools for sending a mail to me?
