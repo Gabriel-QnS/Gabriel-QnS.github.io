@@ -48,3 +48,7 @@ section#intro{
   #projects-button{
     width: fit-content;
   }
+
+  #projects-button a{
+    font-size: 36px !important;
+  }
