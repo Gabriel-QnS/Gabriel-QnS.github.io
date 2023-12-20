@@ -11,5 +11,5 @@ next add social media area
 how do i link in a website the tools for sending a mail to me?
 finished most of the mobile/tablet version
 now pending:
-pc version ready
-add live links to projects
+pc version ready DONE
+add live links to projects DONE
