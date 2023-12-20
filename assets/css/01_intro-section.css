@@ -1,5 +1,5 @@
 section#intro{
-    min-height: 90vh;
+    min-height: 100vh;
     height: auto;
     margin-top: 50px;
   }
@@ -39,4 +39,12 @@ section#intro{
     background-color: aqua;
     color: black;
     border-color: #333 !important;
+  }
+
+  #bio{
+    max-width: 500px;
+  }
+
+  #projects-button{
+    width: fit-content;
   }

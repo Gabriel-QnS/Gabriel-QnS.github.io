@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <title>Gabriel Rengifo</title>
 </head>
-<body class="">
+<body class="g-0">
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <main>
 
@@ -17,7 +17,7 @@
             <nav class="navbar navbar-expand-sm bg-primary border-bottom border-light border-3" id="navigation">
                 <div class="container-fluid">
                     <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-                        <ul class="navbar-nav d-flex flex-row gap-3">
+                        <ul class="navbar-nav d-flex flex-row gap-3 g-0">
                           <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#intro">Home</a>
                           </li>
@@ -61,24 +61,20 @@
               </nav> -->
 
         <section id="intro" class="">
-            <div class="card">
+            <div id="bio" class="card bg-primary text-light mx-auto mt-5">
               <div class="card-header rounded-1">
-                <img id="mypic" src="assets/media/pic-color.jpg" alt="A photo of me, Gabriel!" class="card-img border border-primary border-3">
+                <img id="mypic" src="assets/media/pic-color.jpg" alt="A photo of me, Gabriel!" class="card-img border border-light border-3">
               </div>
-              <div class="intro card-body text-end">
+              <div class="intro card-body text-end w-100">
                   <h1 class="card-title">Welcome</h1>
-                  <h2 class="card-subtitle">My name is Gabriel</h2>
+                  <h2 class="card-subtitle">My name is <strong>Gabriel</strong></h2>
                   <p>I'm a software engineer</p>
-                  <p>I do Fullstack Web Development and manage Data Bases in several languages and frameworks, being MongoDB my favorite tool</p>
+                  <p>I do <strong>Fullstack Web Development</strong> and manage <strong>Data Bases</strong> in several languages and frameworks.</p>
               </div>
-              <div><a type="button" class="btn btn-primary border m-2" href="#projects"><span class="fw-bold">See my Projects</span></a></div>
             </div>
+            <div id="projects-button" class="mx-auto my-5"><a type="button" class="btn btn-primary border" href="#projects"><span class="fw-bold">See my Projects</span></a></div>
         </section>
-        <section id="about">
-          <div class="p-2 m-2 text-center">
-            <h4>I also have a <span class="link-danger">GitHub</span> with public projects</h4>
-            <a id="github-link" href="" target="_blank" class="btn btn-danger px-5 my-2 border border-danger-subtle border-2">GitHub<i class="fa-brands fa-github"></i></a>
-          </div>
+        <section id="about" class="g-0">
           <div class="card-group text-center">
             <div class="card">
               <div class="card-body">
@@ -102,11 +98,15 @@
               </div>
             </div>
           </div>
+          <div class="p-2 m-2 text-center">
+            <h4>I also have a <span class="link-danger">GitHub</span> with public projects</h4>
+            <a id="github-link" href="" target="_blank" class="btn btn-danger px-5 my-2 border border-danger-subtle border-2">GitHub<i class="fa-brands fa-github"></i></a>
+          </div>
         </section>
-        <section id="projects" class="container bg-dark g-0 m-auto p-2">
+        <section id="projects" class="bg-dark g-0 m-auto p-2">
           <h4 class="text-center text-light p-2 m-2">Some of my <span class="text-danger">Projects</span></h4>
           
-          <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 gy-2" id="project-gallery">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-1" id="project-gallery">
             <div class="col">
               <div class="border-dark border border-1 card text-center h-100">
                 <div class="card-body">
@@ -169,10 +169,10 @@
           </div> -->
 
         </section>
-        <section id="social" class="text-center row pt-2 d-flex justify-content-center bg-dark">
+        <section id="social" class="text-center row g-0 pt-2 d-flex justify-content-center bg-dark mt-2">
           <div class="col-12 col-md-5 rounded rounded-3 bg-info-subtle d-flex flex-column justify-content-center">
             <h4 class="p-2">My <span class="text-primary">Social</span> media</h4>
-            <div class="media-buttons d-flex flex-row flex-wrap justify-content-evenly align-items-center gap-1 gap-md-3 p-2">
+            <div class="media-buttons d-flex flex-row g-0 flex-wrap justify-content-evenly align-items-center gap-1 gap-md-3 p-2">
                 <div><a href="https://www.linkedin.com/in/gabriel-rengifo-quo/" target="_blank"><div id="linkedin" class="social"></div></a></div>
                 <div>
                 <a href="https://twitter.com/GR_DevMed" target="_blank">
@@ -187,10 +187,10 @@
             <p>I'm an M.D. that transitioned into tech. I've found programming to be a natural fit for me. Several skills based on logic and problem solving overlap from medicine to computers nicely. I delved into Web Development as my entry point and I've continued to expand my horizons into Data Analysis.</p>
           </article>
         </section>
-        <footer class="py-2 bg-dark text-light">
+        <footer class="py-2 bg-dark text-light container-fluid gx-0">
           <div><h4 class="text-center">Thanks To</h4>
           <ul>
-            <li>My family and friends</li>
+            <li class="">My family and friends</li>
             <li><a href="" data-bs-toggle="collapse" data-bs-target="#attributions" aria-expanded="false" aria-controls="collapseExample" class="link-warning text-decoration-none">The awesome creators of the icons and images used here. Click to Expand</a></li>
           </ul></div>
           <div class="collapse" id="attributions" class="">
