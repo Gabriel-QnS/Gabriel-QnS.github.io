@@ -1,18 +1,25 @@
-#projects div.card-group div.card{
+#project-gallery div.card{
     /* max-width: 400px; */
     height: 100%;
 }
 
-#project-gallery div div div img{
+#project-gallery img{
     height: 250px;
+    max-height: 75%;
+    border: var(--bs-dark) solid;
+    border-width: 2px 2px 0 2px;
 }
+
+
 
 @media screen and (min-width: 570px){
 
-    #projects div.card-group div.card{
+    #project-gallery div.card-body{
         /* max-width: 400px; */
-        height: 100%;
-        max-height: 250px;
+        height: 450px;
+    }
+    #project-gallery img{
+        height: 300px;
     }
 }
 
