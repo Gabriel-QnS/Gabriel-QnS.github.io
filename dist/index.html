@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/00_styles.css">
+    <title>Gabriel Rengifo</title>
+</head>
+<body class="g-0">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <main>
+
+        <!-- nav bar area -->
+
+            <nav class="navbar navbar-expand-sm bg-primary border-bottom border-light border-3" id="navigation">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav d-flex flex-row gap-3 g-0">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#intro">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#social">Social</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#about-me">About Me</a>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- <nav class="navbar navbar-expand bg-body-tertiary"> MODEL FOR REFERENCE
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navi">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav> -->
+
+        <section id="intro" class="">
+            <div id="bio" class="card bg-primary text-light mx-auto mt-5 p-lg-4">
+              <div class="card-header rounded-1 w-100">
+                <img id="mypic" src="assets/media/pic-color.jpg" alt="A photo of me, Gabriel!" class="card-img border border-light border-3">
+              </div>
+              <div class="intro card-body text-end w-100">
+                  <h1 class="card-title">Welcome</h1>
+                  <h2 class="card-subtitle">My name is <strong>Gabriel</strong></h2>
+                  <p>I'm a software engineer</p>
+                  <p>I do <strong>Fullstack Web Development</strong> and manage <strong>Data Bases</strong> in several languages and frameworks.</p>
+              </div>
+            </div>
+            <div id="projects-button" class="mx-auto mt-1"><a type="button" class="btn btn-primary border border-dark-subtle border-2" href="#projects"><span class="fw-bold">See my Projects</span></a></div>
+        </section>
+        <section id="about" class="g-0">
+          <div class="card-group text-center">
+            <div class="card">
+              <div class="card-body">
+                <figure><img src="assets/media/checklist.gif" alt="" id="firstgif"></figure>
+                <h5 class="card-title">Built to Work</h5>
+                <p class="card-text">Websites created to provide what you ask for</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <figure><img src="assets/media/responsive.gif" alt="" class="card-img"></figure>
+                <h5 class="card-title">Responsive Design</h5>
+                <p class="card-text">Functional and elegant in any device</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <figure><img src="assets/media/ux-design.gif" alt="" class="card-img"></figure>
+                <h5 class="card-title">Optimized Code</h5>
+                <p class="card-text">Clean and fast user interface</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 m-2 text-center">
+            <h4>I also have a <span class="link-danger">GitHub</span> with public projects</h4>
+            <a id="github-link" href="" target="_blank" class="btn btn-danger px-5 my-2 border border-danger-subtle border-2">GitHub<i class="fa-brands fa-github"></i></a>
+          </div>
+        </section>
+        <section id="projects" class="bg-dark g-0 m-auto p-2">
+          <h4 class="text-center text-light p-2 m-2">Some of my <span class="text-danger">Projects</span></h4>
+          
+          <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-1" id="project-gallery">
+            <div class="col">
+              <div class="border-dark border border-1 card text-center h-100">
+                <a href="https://htmlpreview.github.io/?https://github.com/Gabriel-QnS/red-cuisine-restaurant/blob/main/index.html" target="_blank" class="wrapper-link">
+                  <div class="card-body">
+                    <img src="assets/media/cook.png" alt="" class="card-img-top">
+                    <p class="card-title fw-bold p-2 bg-dark text-light border-top border-light border-1">The Red Cuisine</p>
+                    <p class="card-text bg-dark text-light">A Restaurant website about red food</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+      
+            <div class="col">
+              <div class="border-dark border border-1 card text-center h-100">
+                <a href="https://htmlpreview.github.io/?https://github.com/Gabriel-QnS/survey-form-sample/blob/main/index.html" class="wrapper-link" target="_blank">
+                  <div class="card-body">
+                    <img src="assets/media/survey-form.png" alt="" class="card-img-top">
+                    <p class="card-title fw-bold p-2 bg-dark text-light border-top border-light border-1">Survey Form</p>
+                    <p class="card-text bg-dark text-light">Satisfaction Form, Luxury Cat Products</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="border-dark border border-1 card text-center h-100">
+                <a href="https://htmlpreview.github.io/?https://github.com/Gabriel-QnS/prism.js-documentation-sample/blob/main/index.html" class="wrapper-link" target="_blank">
+                  <div class="card-body">
+                    <img src="assets/media/technical-docs.png" alt="" class="card-img-top">
+                    <p class="card-title fw-bold p-2 bg-dark text-light border-top border-light border-1">Prism.js Starter Documentation</p>
+                    <p class="card-text bg-dark text-light">A website with technical information about the library Prism.js</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="border-dark border border-1 card text-center h-100">
+                <a href="https://htmlpreview.github.io/?https://github.com/Gabriel-QnS/catshop-homepage-sample/blob/main/index.html" target="_blank" class="wrapper-link">
+                  <div class="card-body">
+                    <img src="assets/media/product-landing.png" alt="" class="card-img-top">
+                    <p class="card-title fw-bold p-2 bg-dark text-light border-top border-light border-1">Product Home Page</p>
+                    <p class="card-text bg-dark text-light">A homepage for advertising luxury packages for cats</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="border-dark border border-1 card text-center h-100">
+                <a href="https://htmlpreview.github.io/?https://github.com/Gabriel-QnS/souls-series-tribute/blob/main/index.html" target="_blank" class="wrapper-link">
+                  <div class="card-body">
+                    <img src="assets/media/tributepage.png" alt="" class="card-img-top">
+                    <p class="card-title fw-bold p-2 bg-dark text-light border-top border-light border-1">Tribute Page</p>
+                    <p class="card-text bg-dark text-light">Minimalistic page dedicated to a single topic with links to more information</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+          <!-- <div class="card">
+            <div class="card-body">
+              <img src="assets/media/cook.png" alt="" class="card-img-top">
+              <p class="card-title">Sample</p>
+              <p class="card-text">sample</p>
+            </div>
+          </div> -->
+
+        </section>
+        <section id="social" class="text-center row g-0 pt-2 d-flex justify-content-center bg-dark mt-2">
+          <div class="col-12 col-md-5 rounded rounded-3 bg-info-subtle d-flex flex-column justify-content-center">
+            <h4 class="p-2">My <span class="text-primary">Social</span> media</h4>
+            <div class="media-buttons d-flex flex-row g-0 flex-wrap justify-content-evenly align-items-center gap-1 gap-md-3 p-2">
+                <div><a href="https://www.linkedin.com/in/gabriel-rengifo-quo/" target="_blank"><div id="linkedin" class="social"></div></a></div>
+                <div>
+                <a href="https://twitter.com/GR_DevMed" target="_blank">
+                  <div id="twitter" class="social"></div>
+                </a>
+              </div>
+              <!-- <div id="gmail" class="social"></div> -->
+            </div>
+          </div>
+          <article id="about-me" class="col-12 col-md-7 mt-4 my-md-0 bg-dark text-light p-4">
+            <h4>A bit <span class="text-danger">About</span> me</h4>
+            <p>I'm an M.D. that transitioned into tech. I've found programming to be a natural fit for me. Several skills based on logic and problem solving overlap from medicine to computers nicely. I delved into Web Development as my entry point and I've continued to expand my horizons into Data Analysis.</p>
+          </article>
+        </section>
+        <footer class="py-2 bg-dark text-light container-fluid gx-0 text-md-center">
+          <div><h4 class="text-center">Thanks To</h4>
+          <ul class="list-unstyled">
+            <li class="">My family and friends</li>
+            <li><a href="" data-bs-toggle="collapse" data-bs-target="#attributions" aria-expanded="false" aria-controls="collapseExample" class="link-warning text-decoration-none">The awesome creators of the icons and images used here. Click to Expand</a></li>
+          </ul></div>
+          <div class="collapse" id="attributions" class="">
+            <ul class="bg-dark p-2 border-top border-bottom border-5 border-warning">
+              <li><a href="https://www.flaticon.com/free-animated-icons/web-design" title="web design animated icons">Web design animated icons created by Freepik - Flaticon</a></li>
+              <li><a href="https://www.flaticon.com/free-animated-icons/ux-design" title="ux design animated icons">Ux design animated icons created by Freepik - Flaticon</a></li>
+              <li><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a></li>
+              <li><a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Pixel perfect - Flaticon</a></li>
+              <li><a href="https://www.flaticon.com/free-icons/gmail" title="gmail icons">Gmail icons created by Google - Flaticon</a></li>
+              <li><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a></li>
+              <li><a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Pixel perfect - Flaticon</a></li>
+              <li><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a></li>
+            </ul>
+          </div>
+        </footer>
+    </main>
+</body>
+</html>
+
+<!-- ATTRIBUTION LINKS
+  
+  <a href="https://www.flaticon.com/free-animated-icons/web-design" title="web design animated icons">Web design animated icons created by Freepik - Flaticon</a> 
+  <a href="https://www.flaticon.com/free-animated-icons/ux-design" title="ux design animated icons">Ux design animated icons created by Freepik - Flaticon</a>
+  <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
+  <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Pixel perfect - Flaticon</a>
+  <a href="https://www.flaticon.com/free-icons/gmail" title="gmail icons">Gmail icons created by Google - Flaticon</a>
+  <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
+  <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Pixel perfect - Flaticon</a>
+  <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
+
+
+-->
