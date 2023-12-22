@@ -13,3 +13,5 @@ finished most of the mobile/tablet version
 now pending:
 pc version ready DONE
 add live links to projects DONE
+03
+Decided to scrap Webpack for being cumbersome and very complicated to deal with for my small project. I've learned to use Vite, this project is now bundled with it
