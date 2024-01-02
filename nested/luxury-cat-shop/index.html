@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'Quorion and Cats'™ Care Packages</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-light container">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <header id="header" class="container row m-auto align-items-center border-bottom border-top border-5 border-info">
+        <figure id="logo row" class="text-center bg-info-subtle border border-2 border-light rounded-1 p-2 m-auto mt-1 mb-1 col-lg-4">
+            <img class="border border-5 border-dark rounded-1" src="assets/logo-edited.jpg" alt="Quorion and Cats' Company Logo" id="header-img" width="300px" id="header-img">
+        </figure>
+        <div class="textwrapper col-lg-8">
+            <div class="justify-content-center h-100 d-flex flex-column gap-1">
+                <div class="titles bg-dark border border-5 border-info rounded text-center text-info">
+                    <h1 class="title">Quo's Feline Care</h1>
+                </div>
+                <nav id="nav-bar" class="d-lg-flex flex-column h-100">
+                    <ul class="text-center h-100 d-flex flex-fill flex-column gap-2">
+                        <li class="bg-dark border border-5 border-info text-info col"><a href="#header" class="nav-link col">Home</a></li>
+                        <li class="bg-dark border border-5 border-info text-info col"><a href="#about" class="nav-link col">About Us</a></li>
+                        <li class="bg-dark border border-5 border-info text-info col"><a href="#products" class="nav-link col">Products</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="row">
+
+        <section id="about" class="border-bottom border-5 border-info mb-2 p-2">
+            <article class="text-center">
+                <h2 class="display-2 text-center text-info">Feline caretaking: <u>optimized</u></h2>
+                <p>At our company, we pride ourselves on crafting and delivering bespoke care packages that cater to every feline requirement. Whether you’re seeking fundamental care for your new kitten or desiring a lavish, royal pampering experience for your furry friend, we’ve got you covered. Our comprehensive range includes hygiene products, engaging toys, delectable treats, stylish apparel, comfortable furniture, and much more! Your cat’s happiness is our priority.</p>
+                <div class="text-center"><a href="#products" class="link-info">Check what we've got on store this month!</a><p style="font-size: 50px;">&#128571;</p></div>
+            </article>
+            <h3 class="display-3 text-info text-center">Our Job, Our Passion</h3>
+            <div class="container video-wrapper ratio ratio-4x3 m-auto">
+                <iframe class="m-auto" src="https://www.youtube.com/embed/bP_GTuDao6c?si=aelnnX4MzX6vwRqB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" id="video" allowfullscreen></iframe>
+            </div>
+        </section>
+        <h1 class="display-1 text-center text-info">Popular Packages</h1>
+        <section id="products" class="container d-flex flex justify-content-evenly flex-wrap gap-2 gap-xl-4 justify-content-xl-center border-bottom border-info border-5 pb-2">
+            <div class="card col">
+                <div class="card-body">
+                    <div class="card-header bg-info">
+                        <img src="assets/bronze-medal.png" alt="Bronze Medal" class="card-img-top">
+                        <h3 class="card-title">Bronze Kitten Care</h3>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, necessitatibus quibusdam a doloribus at debitis unde quam, exercitationem fuga, vel amet! Vitae fugiat exercitationem pariatur, repellat inventore suscipit asperiores doloribus.</p>
+                </div>
+            </div>
+
+            <div class="card col">
+                <div class="card-body">
+                    <div class="card-header bg-info">
+                        <img src="assets/silver-medal.png" alt="Silver Medal" class="card-img-top">
+                        <h3 class="card-title">Silver Cat Care</h3>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eveniet recusandae reiciendis natus. Ducimus inventore labore odit, quis dolorum quam dicta facere officia magni vero praesentium, aut eveniet aliquam accusantium.</p>
+                </div>
+            </div>
+
+            <div class="card col">
+                <div class="card-body">
+                    <div class="card-header bg-info">
+                        <img src="assets/gold-medal.png" alt="Golden Medal" class="card-img-top">
+                        <h3 class="card-title">Golden Feline Care</h3>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas omnis ut quam quos quas dolorem eius. Quaerat neque tempora veniam saepe reprehenderit quae veritatis nesciunt, harum quisquam distinctio, quidem explicabo.</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="m-auto p-2 d-flex flex-column">
+        <div class="forminfo">
+            <h3>Join our newsletter</h3>
+            <p>Just 2 mails per month. We also hate spam &#9940;</p>
+        </div>
+        <form action="https://www.freecodecamp.com/email-submit" method="post" class="form-control bg-info text-dark text-center fw-bold">
+            <label class="form-label" for="email">E-mail <br>
+                <input class="form-control" type="email" name="email" id="email" placeholder="marian@siamese.cat">
+            </label><br>
+            <input class="btn btn-dark" type="submit" id="submit" value="Subscribe"></input>
+        </form>
+    </footer>
+    <div class="firm container text-end d-flex flex-row-reverse justify-content-between">
+        <p>Made by <a class="link-info" href="https://github.com/Quo210" target="_blank">Gabriel R.</a></p>
+        <div class="dropdown">
+            <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Additional Credits To</button>
+            <ul class="dropdown-menu border border-danger border-2">
+                <li class="dropdown-item-text">All the content creators that have uploaded their work for creative use. Give them a thumbs up!</li>
+                <li class="dropdown-item"><a class="link-danger" href="https://www.flaticon.com/free-icons/bronze-medal" title="bronze medal icons" target="_blank">Bronze medal icons created by KSan Wapiti - Flaticon</a></li>
+                <li class="dropdown-item"><a class="link-danger" href="https://www.flaticon.com/free-icons/silver-medal" title="silver medal icons" target="_blank">Silver medal icons created by KSan Wapiti - Flaticon</a></li>
+                <li class="dropdown-item"><a class="link-danger" href="https://www.flaticon.com/free-icons/gold-medal" title="gold medal icons" target="_blank">Gold medal icons created by KSan Wapiti - Flaticon</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+<!-- # ATTRIBUTING CORNER
+    
+    
+    <a href="https://www.flaticon.com/free-icons/bronze-medal" title="bronze medal icons">Bronze medal icons created by KSan Wapiti - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/silver-medal" title="silver medal icons">Silver medal icons created by KSan Wapiti - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/gold-medal" title="gold medal icons">Gold medal icons created by KSan Wapiti - Flaticon</a>
+
+-->

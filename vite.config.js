@@ -9,7 +9,10 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         'prism': './nested/prism-docs/index.html',
-        'tribute': './nested/tribute/index.html'
+        'tribute': './nested/tribute/index.html',
+        'red-cuisine': './nested/red-cuisine/index.html',
+        'cat-shop': './nested/luxury-cat-shop',
+        'survey-form': './nested/survey-form'
       },
     },
   },

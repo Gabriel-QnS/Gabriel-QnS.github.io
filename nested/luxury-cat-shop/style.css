@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+:root{
+    --peralta: 'Peralta', serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url("assets/Cats.jpeg");
+    background-size: cover;
+}
+ 
+
+ul{
+    list-style-type: none;
+    padding: 0
+}
+
+div.card{
+    min-width: 280px;
+    max-width: 320px;
+    transition: 0.25s ease-in;
+}
+
+div.card:hover{
+    transform: scale(1.05);
+    border: 1px solid cyan;
+}
+
+div.card-header{
+    text-align: center;
+}
+
+figure{
+    max-width: fit-content;
+}
+
+img#header-img{
+ max-width: 100%;
+}
+
+header{
+    color: black;
+}
+
+h1.title{
+    font-family: var(--peralta) !important;
+}
+
+/* nav list items */
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    li.bg-info{
+        font-size: 40px;
+    }
+}
+
+/* about us section */
+
+.video-wrapper{
+    max-width: 768px;
+}
+
+/* footer and form  */
+
+footer{
+    max-width: 568px;
+}
+
+label input::placeholder{
+    color: white
+}
+
+/* dropdown menu */
+
+.dropdown-menu{
+    font-size: 16px;
+    max-width: 80vw;
+    overflow: scroll;
+}
