@@ -18,4 +18,3 @@ Decided to scrap Webpack for being cumbersome and very complicated to deal with 
 04
 Trying to add all other projects, bundled, locally, see if it works.
 
-2024
