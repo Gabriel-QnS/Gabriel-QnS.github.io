@@ -11,8 +11,8 @@ export default defineConfig({
         'prism': './nested/prism-docs/index.html',
         'tribute': './nested/tribute/index.html',
         'red-cuisine': './nested/red-cuisine/index.html',
-        'cat-shop': './nested/luxury-cat-shop',
-        'survey-form': './nested/survey-form'
+        'cat-shop': './nested/luxury-cat-shop/index.html',
+        'survey-form': './nested/survey-form/index.html'
       },
     },
   },
