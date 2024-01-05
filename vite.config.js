@@ -12,7 +12,8 @@ export default defineConfig({
         'tribute': './nested/tribute/index.html',
         'red-cuisine': './nested/red-cuisine/index.html',
         'cat-shop': './nested/luxury-cat-shop/index.html',
-        'survey-form': './nested/survey-form/index.html'
+        'survey-form': './nested/survey-form/index.html',
+        'palindrome-finder':'./nested/palindrome-finder/index.html'
       },
     },
   },
