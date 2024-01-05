@@ -8,7 +8,7 @@
     max-height: 75%;
     border: var(--bs-dark) solid;
     border-width: 2px 2px 0 2px;
-    object-fit: cover;
+    object-fit: cover
 }
 
 #project-gallery a{
