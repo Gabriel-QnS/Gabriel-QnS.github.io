@@ -13,8 +13,8 @@ export default defineConfig({
         'red-cuisine': './nested/red-cuisine/index.html',
         'cat-shop': './nested/luxury-cat-shop/index.html',
         'survey-form': './nested/survey-form/index.html',
-        'palindrome-finder':'./nested/palindrome-finder/index.html',
-        'roman-numerals':'./nested/roman-number-converter/index.html'
+        'pallindrome-finder':'./nested/pallindrome-finder/index.html',
+        'roman-numerals':'./nested/roman-numerals/index.html'
       },
     },
   },
